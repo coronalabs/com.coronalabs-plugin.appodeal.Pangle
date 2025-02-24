@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void (^PAGAppOpenADLoadCompletionHandler)(PAGLAppOpenAd * _Nullable appOpenAd,
                                                  NSError * _Nullable error);
 
-@interface PAGLAppOpenAd : NSObject<PAGAdProtocol>
+@interface PAGLAppOpenAd : NSObject<PAGAdProtocol, PAGAdClientBiddingProtocol>
 
 /// Ad event delegate.
 @property (nonatomic, weak, nullable) id<PAGLAppOpenAdDelegate> delegate;

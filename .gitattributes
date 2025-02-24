@@ -1,3 +1,5 @@
 *.framework filter=lfs diff=lfs merge=lfs -text
 plugins/2018.3326/iphone-sim/resources/Frameworks/PAGAdSDK.framework/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
 plugins/2018.3326/iphone/resources/Frameworks/PAGAdSDK.framework/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
+plugins/2018.3326/iphone-sim/PAGAdSDK.framework/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
+plugins/2018.3326/iphone/PAGAdSDK.framework/PAGAdSDK filter=lfs diff=lfs merge=lfs -text
