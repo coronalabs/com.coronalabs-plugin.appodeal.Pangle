@@ -1,8 +1,8 @@
 //
 //  PAGAdProtocol.h
-//  PangleSDK
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/4/7.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,9 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol PAGAdProtocol <NSObject>
-
-/// return extra info
-- (nullable NSDictionary *)getMediaExtraInfo DEPRECATED_MSG_ATTRIBUTE("Use getExtraInfoWithKey: method instead.");
 
 /// Returns the value corresponding to the specified key
 /// - Parameter key: The value key

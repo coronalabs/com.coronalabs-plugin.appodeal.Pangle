@@ -1,8 +1,8 @@
 //
 //  PAGRequest.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/3/22.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// extra info
 @property (nonatomic, copy, nullable) NSDictionary *extraInfo;
 
-+ (instancetype)request;
++ (nullable instancetype)request;
 
 - (void)registerAdNetworkExtras:(id<PAGMAdNetworkExtras>)extras;
 

@@ -1,8 +1,8 @@
 //
 //  PAGLInterstitialAd.h
-//  PangleAPI
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/2/25.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

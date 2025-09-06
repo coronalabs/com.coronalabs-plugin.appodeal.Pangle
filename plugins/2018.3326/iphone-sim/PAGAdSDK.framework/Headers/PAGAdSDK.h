@@ -1,8 +1,8 @@
 //
 //  PAGAdSDK.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Copyright © 2017年 bytedance. All rights reserved.
+//  Copyright 2017 ByteDance Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,7 +11,6 @@
 #import <PAGAdSDK/PAGAdClientBiddingProtocol.h>
 #import <PAGAdSDK/PAGAdDelegate.h>
 #import <PAGAdSDK/PAGAdProtocol.h>
-#import <PAGAdSDK/PAGAdPublicDefine.h>
 #import <PAGAdSDK/PAGAdSDK.h>
 #import <PAGAdSDK/PAGAdSize.h>
 #import <PAGAdSDK/PAGAppOpenRequest.h>
@@ -38,3 +37,4 @@
 #import <PAGAdSDK/PAGRewardedAdDelegate.h>
 #import <PAGAdSDK/PAGRewardedRequest.h>
 #import <PAGAdSDK/PAGSdk.h>
+#import <PAGAdSDK/PAGBiddingRequest.h>

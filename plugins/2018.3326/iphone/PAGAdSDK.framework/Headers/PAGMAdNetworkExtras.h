@@ -1,8 +1,8 @@
 //
-//  PAGMNetworkExtras.h
-//  PAGAdSDK
+//  PAGMAdNetworkExtras.h
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/11/8.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

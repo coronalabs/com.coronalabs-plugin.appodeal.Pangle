@@ -1,8 +1,8 @@
 //
 //  PAGNativeRequest.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/3/23.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import "PAGRequest.h"

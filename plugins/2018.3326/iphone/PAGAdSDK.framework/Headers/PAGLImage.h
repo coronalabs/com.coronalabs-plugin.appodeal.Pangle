@@ -1,8 +1,8 @@
 //
 //  PAGLImage.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by Willie on 2022/5/5.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 NS_ASSUME_NONNULL_BEGIN

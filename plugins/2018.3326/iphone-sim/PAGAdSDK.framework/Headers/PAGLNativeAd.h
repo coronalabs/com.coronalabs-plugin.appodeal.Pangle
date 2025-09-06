@@ -1,8 +1,8 @@
 //
 //  PAGLNativeAd.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by Willie on 2022/3/1.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

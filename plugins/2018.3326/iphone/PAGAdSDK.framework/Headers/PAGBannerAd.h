@@ -1,8 +1,8 @@
 //
 //  PAGBannerAd.h
-//  PangleAPI
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/3/23.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -27,6 +27,8 @@ typedef void (^PAGBannerADLoadCompletionHandler)(PAGBannerAd * _Nullable bannerA
 @property (nonatomic, weak, nullable) id<PAGBannerAdDelegate> delegate;
 /// View of the banner ad.
 @property (nonatomic, strong, readonly) UIView *bannerView;
+/// Size of the banner ad.
+@property (nonatomic, assign, readonly) PAGBannerAdSize adSize;
 /// View controller the banner ad will be presented on.
 @property (nonatomic, weak, readwrite) UIViewController *rootViewController;
 

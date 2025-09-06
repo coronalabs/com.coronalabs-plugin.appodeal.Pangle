@@ -1,9 +1,13 @@
 //
 //  PAGMediaView.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by Willie on 2022/4/7.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
+
+#import "PAGMediaView.h"
+
+@class PAGInnerNativeAd;
 
 NS_ASSUME_NONNULL_BEGIN
 

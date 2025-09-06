@@ -1,8 +1,8 @@
 //
 //  PAGSdk.h
-//  PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by bytedance on 2022/5/9.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger, PAGSDKInitializationState) {
 
 typedef void (^PAGAdsCompletionHandler)(BOOL success, NSError * __nullable error);
 
+@class PAGBiddingRequest;
 @interface PAGSdk : NSObject
 
 /// Pangle SDK version
@@ -34,12 +35,18 @@ typedef void (^PAGAdsCompletionHandler)(BOOL success, NSError * __nullable error
 /// Get bidding token
 /// @param slotID the unique identifier of  ad.
 /// @note This method recommend called on the sub thread.
-+ (NSString *)getBiddingToken:(nullable NSString *)slotID;
++ (NSString *)getBiddingToken:(nullable NSString *)slotID DEPRECATED_MSG_ATTRIBUTE("Use +getBiddingTokenWithRequest:completion: instead.");
 
 /// Get bidding token asynchronously
 /// @param slotID  the unique identifier of  ad.
 /// @param completion Callback to return the bidding token.
-+ (void)getBiddingToken:(nullable NSString *)slotID completion:(void (^)(NSString * biddingToken))completion;
++ (void)getBiddingToken:(nullable NSString *)slotID completion:(void (^)(NSString * biddingToken))completion DEPRECATED_MSG_ATTRIBUTE("Use +getBiddingTokenWithRequest:completion: instead.");
+
+/// Get bidding token asynchronously
+/// @param request An instance of a  bidding request.
+/// @param completion Callback to return the bidding token.
++ (void)getBiddingTokenWithRequest:(nullable PAGBiddingRequest *)request
+             completion:(void (^)(NSString * biddingToken))completion;
 
 /// Set a ad revenue info obtained from mediation.
 /// You can get sample code from the Pangle platform to learn how to use this method.

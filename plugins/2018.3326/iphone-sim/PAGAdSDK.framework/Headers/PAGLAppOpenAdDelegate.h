@@ -1,8 +1,8 @@
 //
 //  PAGLAppOpenAdDelegate.h
-//  PAGAdSDK-PAGAdSDK
+//  Pangle Ads SDK
 //
-//  Created by ByteDance on 2022/4/26.
+//  Copyright 2022 ByteDance Ltd. All rights reserved.
 //
 
 #import "PAGAdDelegate.h"
